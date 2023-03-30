@@ -1,0 +1,27 @@
+@media (max-width: 460px) {
+  html {
+    font-size: 45.5%;
+  }
+  * {
+    font-family: "cursive", "sans-serif";
+  }
+  .third-section {
+    flex-direction: column;
+    display: grid;
+    place-content: center;
+    padding: 50px 120px 50px 120px;
+  }
+  .footer-container {
+    flex-direction: column;
+    display: grid;
+    place-content: center;
+    padding: 0 120px 0 120px;
+  }
+  .contact-us,
+  .about-us {
+    width: 100vw;
+    /* border-radius: 10px; */
+  }
+  .contact-us {
+  }
+}
